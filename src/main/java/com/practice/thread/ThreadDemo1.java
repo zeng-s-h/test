@@ -14,6 +14,8 @@ public class ThreadDemo1 {
         Thread s3 = new Thread(new MyThread("333",3000));
 
         s1.start();
+
+
 //        s1.join();
 
         s2.start();
