@@ -36,7 +36,7 @@ public class CkannelDemo {
 
         try {
             if (!targetFile.exists()) {
-                targetFile.createNewFile();
+                boolean newFile = targetFile.createNewFile();
             }
             //获取流文件
             fileInputStream = new FileInputStream(sourceFile);
